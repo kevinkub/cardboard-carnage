@@ -1,0 +1,17 @@
+CHANGELOG FOR CARDBOARD CARNAGE
+
+ALL UPDATES SINCE 27.01.2013
+
+[Kevin] 28.01.2013
+	- Added mp3 files for audio support in Safari, IE and Opera
+	- Added scroll options in fight screen
+	- Changed game ending behavior - the game now ends when the last living monster is out of the viewport
+	- Added splashscreen
+	- Changed z-index of killed monsters
+
+[Tobi] 30.01.2013
+  - Hacked little Tutorial Overlay into construction screen
+
+
+[Kevin] 26.01.2014
+	- Reverted to Tobis last modification (Folder got deleted somehow)

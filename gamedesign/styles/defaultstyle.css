@@ -1,0 +1,133 @@
+a:link {
+color:#333333;
+
+}
+a:visited {
+color:#333333;
+
+}
+a:active {
+color:#0055FF;
+
+}
+a:hover {
+color:#0055FF;
+text-decoration:underline;
+}
+
+
+
+body {
+	
+	
+}
+
+img {
+	border: 0px;
+}
+
+
+
+table {
+	border-collapse: separate;
+    border-spacing: 0;
+    
+    color: #000000;
+    empty-cells: hide;
+    font-size: 100%;
+}
+th, td {
+   
+    border-color: -moz-use-text-color #AA9977 #AA9977 -moz-use-text-color !important;
+    border-style: none solid solid none !important;
+    border-width: medium 1px 1px medium !important;
+    padding: 2px 3px;
+	min-width: 80px;
+	text-align:left;
+}
+
+td:hover {
+	background-color: #DDDDDD;
+	
+}
+
+.ctooltip {
+	cursor: pointer;
+	text-decoration:underline;
+}
+
+.menu {
+	background: url("../images/gradient.png");
+	height:32px;
+	margin-bottom:8px;
+}
+
+.button {
+	background: url("../images/btn1.png");
+	height:32px;
+	width:128px;
+	text-align:center;
+	
+}
+.button:hover {
+	background: url("../images/btn2.png");
+	height:32px;
+	width:128px;
+	text-align:center;
+}
+
+.ctooltip:hover {
+	cursor: pointer;
+	color: #0055FF;
+	text-decoration:underline;
+	
+}
+
+UL.tabNavigation {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+UL.tabNavigation LI {
+    display: inline;
+}
+UL.tabNavigation LI A {
+    background-color: #CCCCCC;
+    color: #000000;
+    padding: 3px 5px;
+    text-decoration: none;
+}
+UL.tabNavigation LI A.selected, UL.tabNavigation LI A:hover {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding-top: 7px;
+}
+UL.tabNavigation LI A:focus {
+    outline: 0 none;
+}
+div.tabs > div {
+    border: 3px solid #333333;
+    margin-top: 0px;
+    padding: 0px;
+}
+div.tabs > div h2 {
+    margin-top: 0;
+}
+
+.waste {
+    min-height: 1000px;
+}
+
+.content {
+	border: 3px solid #333333;
+	 background-color: #EEEEEE;
+	 margin-bottom: 10px;
+	  margin-top: 10px;
+}
+
+
+
+
+
+
+

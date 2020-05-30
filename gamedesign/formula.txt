@@ -1,0 +1,10 @@
+
+
+$perc_parts_human = array("head" -> 0.1, "torso" -> 0.4, "arms" -> 0.25, "legs" -> 0.25);
+$perc_stats_human = array("life" -> 0.2, "speed" -> 0.1, "attack" -> 0.2, "aggro" -> 0.2, "def_melee" -> 0.2, "def_ranged" -> 0.15, "def_magic" -> 0.05, "heart_power" -> 1000);
+
+$human_head_life = $perc_parts_human["head"] * $perc_stats_human["life"] * $perc_stats_human["heart_power"];
+
+
+
+$sample_enemy = array("life" -> 100, "att_type" -> "magic", "attack" -> 110, "range" -> 0.5);
